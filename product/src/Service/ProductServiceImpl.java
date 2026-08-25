@@ -5,7 +5,7 @@ import java.util.List;
 import DAO.ProductDAO;
 import DTO.Product;
 
-public class ProductServiceImpl {
+public class ProductServiceImpl implements ProductService {
 
     private ProductDAO productDAO = new ProductDAO();
 

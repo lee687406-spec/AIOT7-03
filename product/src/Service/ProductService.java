@@ -3,7 +3,7 @@ package Service;
 import java.util.List;
 import DTO.Product; 
 
-public class ProductService {
+public interface ProductService {
     // 상품 목록
     List<Product> list();
     // 상품 조회
