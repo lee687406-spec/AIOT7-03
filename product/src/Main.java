@@ -64,7 +64,7 @@ public class Main {
         int no = product.getNo();
         String name = product.getName();
         int price = product.getPrice();
-        String description = product.getDescription();
+        // String description = product.getDescription();
         Date createdAt = product.getCreatedAt();
         Date updatedAt = product.getUpdatedAt();
         // 날짜 포맷
